@@ -53,7 +53,7 @@ void ViewStack(Stack* p) {
 
 
 
-/*int main(void) {
+int main(void) {
 	Stack* p;
 	int i;
 
@@ -66,4 +66,4 @@ void ViewStack(Stack* p) {
 	printf("%d \n", i);//30
 	push(&p, 40);
 	ViewStack(p);//40,20,10
-}*/
+}
