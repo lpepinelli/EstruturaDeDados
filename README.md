@@ -3,7 +3,7 @@ Estruturas de Dados em C com ponteiros
 
 - <strike>Pilha Dinâmica</strike> 
 - <strike>Fila Dinâmica</strike> 
-- String Dinâmica
+- <strike>String Dinâmica</strike>
 - Lista Duplamente Encadeada
 - Fila com prioridade Dinâmica
 - Listas Generalizadas
