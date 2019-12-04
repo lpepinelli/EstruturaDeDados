@@ -13,4 +13,5 @@ Estruturas de Dados em C com ponteiros
 - Implementação da Árvore de Huffman
 - Árvore AVL
 - Implementação da Árvore Rubro-Negra
+- Implementação de Árvore Kd-Tree
 - Hashing
