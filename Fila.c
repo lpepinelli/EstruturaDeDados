@@ -40,16 +40,21 @@ void enqueue(Queue** f, int elem) {
 	}
 }
 
-void dequeue(Queue** f, int* elem) {
-	Queue* aux;
-	aux = *f;
-	*elem = (*f)->elem;//??
-	*f = (*f)->prox;
-	free(aux);
-}
-
 char isEmpty(Queue* f) {
 	return f == NULL;
+}
+
+void dequeue(Queue** f, int* elem) {
+	if(!isEmpty(*f)){
+		Queue* aux;
+		aux = *f;
+		*elem = (*f)->elem;//??
+		*f = (*f)->prox;
+		free(aux);
+	}
+	else
+		*elem = -1;
+	
 }
 
 void ViewQueue(Queue* f) {
