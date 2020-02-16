@@ -153,7 +153,6 @@ void Seek(String* str1, String*subs, int* pos) {
 		}
 		str1 = str1->prox;
 		cont++;
-
 	}
 }
 
@@ -188,8 +187,14 @@ int main(void) {
 	InsertSubs(&str, strcop, 0);
 	ViewString(str);
 	printf("\n");
-	Smaller(str, strcop);
-	Equal(str, str);
+	if(Smaller(str, strcop))
+		printf("menor\n");
+	else
+		printf("maior\n");
+	if(Equal(str, str))
+		printf("igual\n");
+	else
+		printf("diferente\n");
 	Init(&subs);
 	InsertC(&subs, 'F');
 	InsertC(&subs, 'O');
