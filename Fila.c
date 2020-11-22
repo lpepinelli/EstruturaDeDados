@@ -32,12 +32,10 @@ Queue* CriaNo(int elem) {
 //}
 
 void enqueue(Queue** f, int elem) {
-	if (*f == NULL) {
+	if (*f == NULL)
 		*f = CriaNo(elem);
-	}
-	else {
+	else
 		enqueue(&(*f)->prox, elem);
-	}
 }
 
 char isEmpty(Queue* f) {
