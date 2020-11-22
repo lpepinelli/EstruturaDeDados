@@ -46,7 +46,7 @@ void dequeue(Queue** f, int* elem) {
 	if(!isEmpty(*f)){
 		Queue* aux;
 		aux = *f;
-		*elem = (*f)->elem;//??
+		*elem = (*f)->elem;
 		*f = (*f)->prox;
 		free(aux);
 	}
