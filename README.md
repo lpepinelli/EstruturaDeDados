@@ -1,18 +1,18 @@
 # Estrutura De Dados
 Estruturas de Dados em C com ponteiros
 
-- [x] 1. Pilha Dinâmica
+- [x] 1. Dynamic Stack
    - [x] Init
    - [x] Empty
    - [x] Push
    - [x] Pop
    - [x] Top
-- [x] 2. Fila Dinâmica
+- [x] 2. Dynamic Queue
    - [x] Init
    - [x] Empty
    - [x] Enqueue
    - [x] Dequeue
-- [x] 3. String Dinâmica
+- [x] 3. Dynamic String
    - [x] Init
    - [x] Reset
    - [x] ViewString
@@ -26,67 +26,73 @@ Estruturas de Dados em C com ponteiros
    - [x] Smaller
    - [x] Equal
    - [x] Seek
-- [ ] 4. Lista Duplamente Encadeada
+- [ ] 4. Doubly Linked List
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 5. Fila com prioridade Dinâmica
+- [ ] 5. Dynamic priority queue
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 6. Listas Generalizadas
+- [ ] 6. Generalized Linked List
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 7. Matriz Esparsa
+- [ ] 7. Sparse matrix
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 8. Árvores Binárias
+- [ ] 8. Binary Tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 9. Árvore Binária de Busca (ABB)
+- [ ] 9. Binary search tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 10. Árvore de Huffman
+- [ ] 10. Huffman Tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 11. Árvore AVL
+- [ ] 11. AVL Tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 12. Árvore Rubro-Negra
+- [ ] 12. Red–black tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 13. Árvore Kd-Tree
+- [ ] 13. Kd-Tree
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
    - [ ] Function
-- [ ] 14. Hashing
+- [ ] 14. Rope
+   - [ ] Function
+   - [ ] Function
+   - [ ] Function
+   - [ ] Function
+   - [ ] Function
+- [ ] 15. Hashing
    - [ ] Function
    - [ ] Function
    - [ ] Function
